@@ -1,12 +1,15 @@
-body{
-
-    border: 1px solid black;
-
-    
-
+footer::after {
+    content: "®Todos os direitos reservados - Luciano José Kratzer - 2022 ©™";
 }
 
+header a{
+    text-decoration: none;
+    color: black;
+}
 
+.text-justify{
+    text-align: justify;
+}
 
 main, header{
 
@@ -20,19 +23,11 @@ header span{
 
 }
 
-
-
-img{
-
-    width: 130px;
-
-    height: 130px;
-
-    border-radius: 50%;
-
+.centralizar{
+    align-items: center;
+    align-self: center;
+    text-align: center;
 }
-
-
 
 .titulos{
 
@@ -46,8 +41,6 @@ img{
 
 }
 
-
-
 .informacoes{
 
     
@@ -60,17 +53,11 @@ img{
 
 }
 
-
-
 .topicos{
 
     font-weight: bold;
 
 }
-
-
-
-
 
 .topicos::after{
 
@@ -78,13 +65,8 @@ img{
 
 }
 
-
-
-
-
 .textos{
 
     font-style: italic;
 
 }
-

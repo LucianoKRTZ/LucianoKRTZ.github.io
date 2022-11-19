@@ -11,8 +11,6 @@ header a{
     text-align: justify;
 }
 
-
-
 main, header{
 
     margin: 0px 200px 0px 200px;
@@ -24,7 +22,6 @@ header span{
     vertical-align: 40px;  
 
 }
-
 
 .centralizar{
     align-items: center;
@@ -32,8 +29,6 @@ header span{
     text-align: center;
 }
 
-
-
 .titulos{
 
     color: crimson; 
@@ -45,8 +40,6 @@ header span{
     list-style: none;
 
 }
-
-
 
 .informacoes{
 
@@ -60,17 +53,11 @@ header span{
 
 }
 
-
-
 .topicos{
 
     font-weight: bold;
 
 }
-
-
-
-
 
 .topicos::after{
 
@@ -78,105 +65,8 @@ header span{
 
 }
 
-
-
-
-
 .textos{
 
     font-style: italic;
 
 }
-
-body{
-
-    border: 1px solid black;
-
-    
-
-}
-
-
-
-main, header{
-
-    margin: 0px 200px 0px 200px;
-
-}
-
-header span{  
-
-    vertical-align: 40px;  
-
-}
-
-
-
-img{
-
-    width: 130px;
-
-    height: 130px;
-
-    border-radius: 50%;
-
-}
-
-
-
-.titulos{
-
-    color: crimson; 
-
-    font-size: large;
-
-    margin-top: 50px; 
-
-    list-style: none;
-
-}
-
-
-
-.informacoes{
-
-    
-
-    font-size: medium;
-
-    color: black;
-
-    margin-top: 25px; 
-
-}
-
-
-
-.topicos{
-
-    font-weight: bold;
-
-}
-
-
-
-
-
-.topicos::after{
-
-    content:  " : " ;
-
-}
-
-
-
-
-
-.textos{
-
-    font-style: italic;
-
-}
-
-
-
